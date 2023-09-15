@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 
 const List = ({courses,totalCredit,remCredit}) => {
     return (
@@ -9,7 +9,7 @@ const List = ({courses,totalCredit,remCredit}) => {
             <br />
             <h2  className='font-semibold text-2xl'>Course Name: </h2>
             <br />
-            {courses.map(course=><li className='list-decimal'>{course.title}</li>)}
+            {courses.map(course=><li className='list-decimal' key={course.id}>{course.title}</li>)}
             <br />
             <hr />
             <br />
@@ -18,5 +18,9 @@ const List = ({courses,totalCredit,remCredit}) => {
         </div>
     );
 };
-
+List.propTypes = {
+    courses:PropTypes.object,
+    totalCredit: PropTypes.any,
+    remCredit: PropTypes.any
+}
 export default List;

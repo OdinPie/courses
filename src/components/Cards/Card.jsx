@@ -1,13 +1,15 @@
 import { FaDollarSign } from 'react-icons/fa';
 import { FaBookOpen } from 'react-icons/fa';
+import PropTypes from 'prop-types';
+
 const Card = ({card,handleCourse}) => {
     const {title, card_img, description, price, credit_hour} = card
     return (
         <div className='bg-white shadow-md p-8 rounded-lg flex flex-col'>
             <div>
             <img className='w-full h-auto' src={card_img} alt={`card_img ${title}`}/>
-            <h3 className='text-2xl font-semibold'>{title}</h3>
-            <p className='text-gray-500'>{description}</p>
+            <h3 className='text-2xl font-semibold h-[70px]'>{title}</h3>
+            <p className='text-gray-500 h-[75px]'>{description}</p>
             </div>
             <div className='flex justify-between'>
 
@@ -20,5 +22,8 @@ const Card = ({card,handleCourse}) => {
         </div>
     );
 };
-
+Card.propTypes = {
+    card: PropTypes.object,
+    handleCourse:PropTypes.func
+}
 export default Card;

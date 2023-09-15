@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
+import PropTypes from 'prop-types';
 const Cards = ({handleCourse}) => {
     const [cards, setCards] = useState([])
     useEffect(()=>{
@@ -13,5 +14,7 @@ const Cards = ({handleCourse}) => {
         </div>
     );
 };
-
+Cards.propTypes = {
+    handleCourse: PropTypes.func
+}
 export default Cards;
