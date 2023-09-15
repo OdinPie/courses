@@ -6,7 +6,7 @@ const List = ({courses}) => {
             <h2 className='font-semibold text-blue-600 text-2xl'>Credit hour remaining: </h2>
             <hr />
             <h2  className='font-semibold text-2xl'>Course Name: </h2>
-            {}
+            {courses.map(course=><li itemType='number'>{course.title}</li>)}
         </div>
     );
 };

@@ -5,7 +5,7 @@ const Cards = ({handleCourse}) => {
     useEffect(()=>{
         fetch('cards.json')
         .then(res=> res.json())
-        .then(data=> console.log(setCards(data)))
+        .then(data=>setCards(data))
     },[])
     return (
         <div className="grid grid-cols-3 gap-5 w-4/5">
