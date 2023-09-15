@@ -11,11 +11,11 @@ const Card = ({card,handleCourse}) => {
             </div>
             <div className='flex justify-between'>
 
-                <div className='flex items-center'><FaDollarSign /><p className='m-2 font-semibold text-gray-500 text-xl'>Price: {price}</p></div>
-                <div className='flex items-center'><FaBookOpen /><p className='m-2 font-semibold text-gray-500 text-xl'>Credit: {credit_hour} hr</p></div>
+                <div className='flex items-center'><FaDollarSign /><p className='m-2 font-semibold text-gray-500'>Price: {price}</p></div>
+                <div className='flex items-center'><FaBookOpen /><p className='m-2 font-semibold text-gray-500'>Credit: {credit_hour} hr</p></div>
             </div>
             
-            <button className='bg-blue-400 rounded-lg flex-1 p-3 font-bold text-white' onClick={()=>{handleCourse(card)}} >SELECT</button>
+            <button className='bg-blue-400 rounded-lg flex-1 p-3 font-bold text-white' onClick={()=>{handleCourse(card,credit_hour)}} >SELECT</button>
             
         </div>
     );
