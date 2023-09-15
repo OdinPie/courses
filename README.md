@@ -1,8 +1,14 @@
-# React + Vite
+Project Features:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is based on a course registration platform. It has basic registration functionalities such as-
+  - Provides Course details, Credit hour and price
+  - Users can select courses and add them to cart
+  - the cart shows remaining credits and total credits where a user can enroll into     maximum of 20 credits
 
-Currently, two official plugins are available:
+State Management:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I have used three states
+    - to store courses
+    - to keep track of total credits
+    - to keep track of remaining credits
+All of the states are triggered when the 'select' button is entered.
