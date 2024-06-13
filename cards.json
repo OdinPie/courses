@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to Programming",
+      "card_img": "https://i.ibb.co/smsZdgG/Rectangle-2.png",
+      "description": "Learn the basics of programming in this comprehensive course.",
+      "price": 49.99,
+      "credit_hour": 3
+    },
+    {
+        "id": 2,
+      "title": "Web Development Basics",
+      "card_img": "https://i.ibb.co/dDgK9yH/Rectangle-2-1.png",
+      "description": "Master the essentials of web development, including HTML, CSS, and JavaScript",
+      "price": 59.99,
+      "credit_hour": 4
+    },
+    {
+        "id": 3,
+      "title": "Data Science for Beginners",
+      "card_img": "https://i.ibb.co/23zjxwx/Rectangle-2-2.png",
+      "description": "Discover the world of data science and analytics. Explore the contributions of data science",
+      "price": 69.99,
+      "credit_hour": 5
+    },
+    {
+        "id": 4,
+      "title": "Digital Marketing Strategies",
+      "card_img": "https://i.ibb.co/qMZZh5Q/Rectangle-2-3.png",
+      "description": "Become a digital marketing expert and delv e into the world of marketing ",
+      "price": 54.99,
+      "credit_hour": 3
+    },
+    {
+        "id": 5,
+      "title": "C++ Essentials for Beginners",
+      "card_img": "https://i.ibb.co/vwtCh7r/Rectangle-2-4.png",
+      "description": "Learn the fundamental principles of graphic design.Create stunning visuals and graphics.",
+      "price": 49.99,
+      "credit_hour": 3
+    },
+    {
+        "id": 6,
+      "title": "Financial Management",
+      "card_img": "https://i.ibb.co/BtjNQ9r/Rectangle-2-5.png",
+      "description": "Manage your finances effectively. Understand budgeting, investments, and financial planning.",
+      "price": 79.99,
+      "credit_hour": 4
+    },
+    {
+        "id": 7,
+      "title": "Machine Learning Algorithms",
+      "card_img": "https://i.ibb.co/nPTtBQn/Rectangle-2-6.png",
+      "description": "Dive into machine learning and artificial intelligence. Build and implement machine learning algorithms.",
+      "price": 74.99,
+      "credit_hour": 5
+    },
+    {
+        "id": 8,
+      "title": "Data Structure Fundamentals",
+      "card_img": "https://i.ibb.co/wMFmRLT/Rectangle-3.png",
+      "description": "Capture stunning photographs with professional techniques. Master your camera and editing skills.",
+      "price": 59.99,
+      "credit_hour": 3
+    },
+    {
+        "id": 9,
+      "title": "Business Ethics ",
+      "card_img": "https://i.ibb.co/qJZLXkb/Rectangle-3-1.png",
+      "description": "Develop strong leadership skills and ethical business practices. Lead with integrity and purpose.",
+      "price": 64.99,
+      "credit_hour": 4
+    }
+  ]
+  
